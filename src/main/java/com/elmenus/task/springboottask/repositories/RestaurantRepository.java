@@ -76,12 +76,13 @@ public class RestaurantRepository {
     public boolean updateRestaurant(String uuid, Restaurant restaurant) {
         ArrayList<Restaurant> restaurants = getRestaurants();
         Restaurant r = restaurants.stream().filter(restaurant1 -> restaurant1.getUuid().equals(uuid)).findFirst().orElse(null);
-        if (r != null) {
-            int index = restaurants.indexOf(r);
-            r = restaurant;
-            restaurants.remove(index);
-            restaurants.add(index, r);
-        }
+        if (r == null)
+            return false;
+
+        int index = restaurants.indexOf(r);
+        r = restaurant;
+        restaurants.remove(index);
+        restaurants.add(index, r);
         return updateRestaurants(restaurants);
     }
 }

@@ -438,4 +438,48 @@
     "pendingMenu" : true,
     "closed" : false
   }
-}]
+}, {
+  "uuid" : "5dc95ee4-add9-11e7-b988-0242ac110004",
+  "data" : {
+    "enName" : "Marv's Cafe",
+    "arName" : "كافيه بينوس",
+    "state" : "PUBLISHED",
+    "routingMethod" : null,
+    "logo" : "2b873idz.jpg",
+    "coverPhoto" : "1083.jpg",
+    "enDescription" : "",
+    "arDescription" : null,
+    "shortNumber" : "",
+    "facebookLink" : "",
+    "twitterLink" : "",
+    "youtubeLink" : "",
+    "website" : null,
+    "onlinePayment" : false,
+    "client" : false,
+    "pendingInfo" : true,
+    "pendingMenu" : true,
+    "closed" : false
+  }
+}, {
+  "uuid" : "5dc95ee4-add9-11e7-b988-0242ac110008",
+  "data" : {
+    "enName" : null,
+    "arName" : null,
+    "state" : null,
+    "routingMethod" : null,
+    "logo" : null,
+    "coverPhoto" : null,
+    "enDescription" : null,
+    "arDescription" : null,
+    "shortNumber" : null,
+    "facebookLink" : null,
+    "twitterLink" : null,
+    "youtubeLink" : null,
+    "website" : null,
+    "onlinePayment" : false,
+    "client" : false,
+    "pendingInfo" : false,
+    "pendingMenu" : false,
+    "closed" : false
+  }
+} ]
